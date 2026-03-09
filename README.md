@@ -1,84 +1,16 @@
-# 🛒 E-Commerce Website
+# React + Vite
 
-This is a modern **E-Commerce Web Application** built using **HTML, CSS, JavaScript, and React.js**.
-The project demonstrates a basic online shopping platform where users can browse products and view product details.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-* Product listing page
-* Responsive UI design
-* Add to cart functionality
-* Modern React components
-* Fast and simple user interface
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Technologies Used
+## React Compiler
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* React.js
-* Git & GitHub
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Project Structure
+## Expanding the ESLint configuration
 
-```
-ecommerce-project
-│
-├── public
-├── src
-│   ├── components
-│   ├── pages
-│   ├── App.js
-│   └── index.js
-│
-└── package.json
-```
-
-## 💻 Installation
-
-1. Clone the repository
-
-```
-git clone https://github.com/Dhanushkumarkakashi/ecommerce-project.git
-```
-
-2. Navigate to project folder
-
-```
-cd ecommerce-project
-```
-
-3. Install dependencies
-
-```
-npm install
-```
-
-4. Run the project
-
-```
-npm run dev
-```
-
-## 📸 Project Preview
-
-Add screenshots of your project here.
-
-## 📌 Future Improvements
-
-* User authentication
-* Payment gateway integration
-* Product search and filter
-* Backend integration with Node.js & MongoDB
-
-## 👨‍💻 Author
-
-**Dhanush Kumar**
-Full Stack Developer
-Location: Tamil Nadu, India
-
-GitHub: https://github.com/Dhanushkumarkakashi
-
----
-
-⭐ If you like this project, give it a **star** on GitHub!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
